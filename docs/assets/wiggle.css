@@ -12,8 +12,29 @@ footer {
     position: absolute;
     bottom: 0;
     right: 0;
-    padding: 3px;
-    text-align: right;
-    background-color: #888888CC;
-    border-radius: 10px 0 0 0;
+    border-top-left-radius: 10px;
+    overflow: auto;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+td {
+    padding: 4px;
+}
+
+td a {
+    vertical-align: center;
+    display: block;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.header {
+    background-color: #888C;
+}
+
+.link {
+    background-color: #EEEC;
 }
